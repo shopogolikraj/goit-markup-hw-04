@@ -280,6 +280,17 @@ img {
   letter-spacing: 0.02em;
 }
 
+.icon-list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.icon-icon {
+  width: 40px;
+  height: 40px;
+}
+
 /* ======================  */
 
 /* ==========PORTFOLIO============  */

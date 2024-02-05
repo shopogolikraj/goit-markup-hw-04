@@ -286,9 +286,12 @@ img {
   gap: 24px;
 }
 
+.icon-item {
+  width: 40px;
+  height: 40px;
+}
+
 .icon-icon {
-  /* width: 40px;
-  height: 40px; */
 }
 
 /* ======================  */

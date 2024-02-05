@@ -378,6 +378,7 @@ img {
 .logo-text-container {
   display: flex;
   margin-right: 120px;
+  flex-direction: column;
 }
 
 .footer-logo {
@@ -405,7 +406,7 @@ img {
 .social-list {
   display: flex;
   justify-content: center;
-  gap: 24px;
+  gap: 16px;
 }
 
 .social-item {

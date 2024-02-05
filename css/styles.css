@@ -283,6 +283,9 @@ img {
 .icon-list {
   display: flex;
   justify-content: center;
+}
+
+.icon-list-gap {
   gap: 24px;
 }
 
@@ -400,6 +403,10 @@ img {
   color: #f4f4fd;
   letter-spacing: 0.02em;
   max-width: 264px;
+}
+
+.social-gap {
+  gap: 16px;
 }
 
 .social-text {

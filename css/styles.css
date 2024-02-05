@@ -291,7 +291,23 @@ img {
   height: 40px;
 }
 
+.icon-link {
+  width: 100%;
+  height: 100%;
+  background-color: #4d5ae5;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-link:hover,
+.icon-link:focus {
+  background-color: #404bbf;
+}
+
 .icon-icon {
+  fill: #f4f4fd;
 }
 
 /* ======================  */

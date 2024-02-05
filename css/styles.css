@@ -149,7 +149,8 @@ img {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  /* max-width: 1440px; */
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
 .hero-title {
@@ -198,6 +199,16 @@ img {
 .advantages-list {
   display: flex;
   gap: 24px;
+}
+
+.advantages-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 112px;
+  background-color: #f4f4fd;
+  border-radius: 4px;
+  margin-bottom: 8px;
 }
 
 .advantages-item {

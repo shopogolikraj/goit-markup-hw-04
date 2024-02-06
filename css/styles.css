@@ -354,7 +354,7 @@ img {
 }
 
 .portfolio-item:hover,
-.portfolio-item:focus {
+.portfolio-cover-text .portfolio-item:focus .portfolio-cover-text {
   transform: translateY(0%);
 }
 

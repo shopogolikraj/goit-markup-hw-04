@@ -353,14 +353,12 @@ img {
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
-.portfolio-item:hover .portfolio-cover-text,
-.portfolio-item:focus .portfolio-cover-text {
+.portfolio-item:hover .portfolio-cover-container,
+.portfolio-item:focus .portfolio-cover-container {
   transform: translateY(0%);
 }
 
-.portfolio-cover-text {
-  letter-spacing: 0.02em;
-  color: #ffffff;
+.portfolio-cover-container {
   position: absolute;
   top: 0;
   background-color: #1c0e0e;
@@ -369,6 +367,11 @@ img {
   padding: 40px 32px 0;
   transform: translateY(100%);
   transition: transform 300ms linear;
+}
+
+.portfolio-cover-text {
+  letter-spacing: 0.02em;
+  color: #ffffff;
 }
 
 .portfolio-name {

@@ -353,10 +353,15 @@ img {
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
-.portfolio-item:hover .portfolio-cover-container,
-.portfolio-item:focus .portfolio-cover-container {
+.portfolio-item:hover,
+.portfolio-item:focus {
   transform: translateY(0%);
 }
+
+/* .portfolio-item:hover .portfolio-cover-container,
+.portfolio-item:focus .portfolio-cover-container {
+  transform: translateY(0%);
+} */
 
 .portfolio-cover-container {
   position: absolute;

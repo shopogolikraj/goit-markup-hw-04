@@ -336,7 +336,7 @@ img {
 .team-social-list {
   display: flex;
   justify-content: center;
-  gap: 16px;
+  gap: 24px;
 }
 
 .team-social-item {
@@ -440,7 +440,11 @@ img {
 
 .footer .container {
   display: flex;
-  gap: 120px;
+  align-items: baseline;
+}
+
+.footer-text-wrap {
+  margin-right: 120px;
 }
 
 .logo {
